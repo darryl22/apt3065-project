@@ -1,10 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "./styles.css"
+
+import Header from './Header';
+import Restaurant from './Restaurant';
 
 function Page() {
+
   return(
     <div>
-      <h1>Restaurant review app</h1>
+      <Header />
+      <h1 className="top-restaurants">Top Restaurants</h1>
+      <Restaurant />
+      <Restaurant />
     </div>
   )
 }

@@ -1,0 +1,26 @@
+.header{
+    height: 70px;
+    width: 100vw;
+    background-color: rgb(112, 191, 202);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title{
+    margin-left: 20px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search p{
+    margin-right: 5px;
+}
+
+.search-logo{
+    height: 16px;
+}
